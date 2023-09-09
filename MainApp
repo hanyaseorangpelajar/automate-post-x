@@ -16,4 +16,5 @@ auth = tweepy.OAuthHandler(
     consumer_key, consumer_secret, access_token, access_token_secret)
 api = tweepy.API(auth)
 
-client.create_tweet(text="Hello, World!")
+client.create_tweet(
+    text="In the middle of every difficulty lies opportunity. - Albert Einstein")
